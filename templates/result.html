@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 30px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 20px;
+        }
+        .image-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            width: 400px;  /* set your desired width */
+            height: auto;
+            border: 1px solid #ccc;
+        }
+        h2 {
+            color: #333;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>{{ prediction }}</h1>
+    <div class="container">
+        <div class="image-box">
+            <h2>Original Image</h2>
+            <img src="{{ original }}" alt="Original Image" />
+        </div>
+        <div class="image-box">
+            <h2>Grad-CAM Image</h2>
+            <img src="{{ gradcam }}" alt="Grad-CAM Image" />
+        </div>
+    </div>
+</body>
+</html>

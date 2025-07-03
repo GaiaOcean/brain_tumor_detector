@@ -40,12 +40,12 @@ def grad_cam_generator(model,image):
     model_output = model.predict(image)
     score = get_score(model_output)
 
-    plt.imshow(heatmap_img.astype('uint8'))
-    plt.axis('off')
-    if score >= 0.5:
-        plt.title("Tumor detected", fontsize=14, color='red')
-    else:
-        plt.title("TNo tumor detected", fontsize=14, color='green')
-    plt.show()
+    # plt.imshow(heatmap_img.astype('uint8'))
+    # plt.axis('off')
+    # if score >= 0.5:
+    #     plt.title("Tumor detected", fontsize=14, color='red')
+    # else:
+    #     plt.title("TNo tumor detected", fontsize=14, color='green')
+    # plt.show()
     
-    return heatmap_img
+    return heatmap_img.astype(np.uint8)
