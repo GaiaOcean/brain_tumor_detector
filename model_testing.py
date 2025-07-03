@@ -5,7 +5,7 @@ import numpy as np
 from grad_cam import grad_cam_generator, normalize_img, get_score
 model = load_model('tumor_detector.h5')
 
-img_path = 'C:\\Users\\User\\Downloads\\tumor_dector\\dataset\\pred\\pred58.jpg'
+img_path = 'C:\\Users\\User\\Downloads\\tumor_dector\\dataset\\pred\\pred51.jpg'
 input_img = normalize_img(img_path)
 
 
