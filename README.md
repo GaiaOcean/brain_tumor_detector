@@ -1,4 +1,4 @@
-# Brain Tumor Detector with Grad-CAM
+# brain_tumor_dectetor
 
 A deep learning web application built with Flask for detecting brain tumors in medical images. This project uses a custom-trained convolutional neural network (CNN) for binary classification (tumor vs. no tumor), trained from scratch on a labeled medical image dataset.
 The app integrates Grad-CAM visualizations to highlight important regions of the image that influenced the model’s prediction, providing transparency and interpretability in a clinical context.
