@@ -5,6 +5,8 @@ The app integrates Grad-CAM visualizations to highlight important regions of the
 Image preprocessing (resizing and normalization) is applied to ensure consistent model input. Users can upload their own medical images via a simple web interface and receive both a prediction and a Grad-CAM heatmap overlay.
 <br>
 <br>
+<br>
+<br>
 
 ![brain_tumor_detector](ex.png)
 
