@@ -4,6 +4,7 @@ A deep learning web application built with Flask for detecting brain tumors in m
 The app integrates Grad-CAM visualizations to highlight important regions of the image that influenced the model’s prediction, providing transparency and interpretability in a clinical context.
 Image preprocessing (resizing and normalization) is applied to ensure consistent model input. Users can upload their own medical images via a simple web interface and receive both a prediction and a Grad-CAM heatmap overlay.
 <br>
+The main goal of this project is to provide a tool that can classify images as tumor or non-tumor while offering interpretability for clinical use through visual explanations of the model’s decisions.
 <br>
 <br>
 <br>
