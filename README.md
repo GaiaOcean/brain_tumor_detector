@@ -8,13 +8,13 @@ Image preprocessing (resizing and normalization) is applied to ensure consistent
 The main goal of this project is to provide a tool that can classify images as tumor or non-tumor while offering interpretability for clinical use through visual explanations of the model’s decisions.
 <br>
 <br>
-Technologies Used
+<h3>Technologies Used<</h3>
 
-Python – Programming language.
 
-Flask – Web framework for serving the application.
+<ul>Python – Programming language.</ul>
+<ul>Flask – Web framework for serving the application.</ul>
 
-TensorFlow / Keras – For building and training the CNN model.
+<ul>TensorFlow / Keras – For building and training the CNN model.</ul>
 
 NumPy – For numerical operations.
 
