@@ -8,6 +8,19 @@ Image preprocessing (resizing and normalization) is applied to ensure consistent
 The main goal of this project is to provide a tool that can classify images as tumor or non-tumor while offering interpretability for clinical use through visual explanations of the model’s decisions.
 <br>
 <br>
+Technologies Used
+
+Python – Programming language.
+
+Flask – Web framework for serving the application.
+
+TensorFlow / Keras – For building and training the CNN model.
+
+NumPy – For numerical operations.
+
+OpenCV / PIL – For image preprocessing.
+
+Matplotlib – To generate Grad-CAM heatmaps.
 <br>
 
 ![brain_tumor_detector](ex.png)
