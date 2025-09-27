@@ -11,12 +11,12 @@ The main goal of this project is to provide a tool that can classify images as t
 <h3>Technologies Used</h3>
 
 
-<ul>Python – Programming language.</ul>
-<ul>Flask – Web framework for serving the application.</ul>
-<ul>TensorFlow / Keras – For building and training the CNN model.</ul>
-<ul>NumPy – For numerical operations.</ul>
-<ul>OpenCV / PIL – For image preprocessing.</ul>
-<ul>Matplotlib – To generate Grad-CAM heatmaps.</ul>
+<ul>Python: Programming language.</ul>
+<ul>Flask: Web framework for serving the application.</ul>
+<ul>TensorFlow / Keras: For building and training the CNN model.</ul>
+<ul>NumPy: For numerical operations.</ul>
+<ul>OpenCV / PIL: For image preprocessing.</ul>
+<ul>Matplotlib: To generate Grad-CAM heatmaps.</ul>
 <br>
 
 ![brain_tumor_detector](ex.png)
